@@ -1,4 +1,4 @@
-# Gitagotchi
+# Gitagotchi
 
 A handy git visualisation tool, which looks a bit like a Tamagotchi.
 
