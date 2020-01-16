@@ -1,0 +1,21 @@
+{
+    "name": "multi-git-status-ui",
+    "version": "0.1.0",
+    "description": "See the status of multiple repos on your machine.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/sam-drew/multi-git-status-ui.git",
+    "author": "Sam Drew <sam-drew@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "7.1.8"
+    },
+    "dependencies": {
+        "find": "^0.3.0",
+        "hogan.js": "^3.0.2",
+        "node-watch": "^0.6.3",
+        "simple-git": "^1.129.0"
+    }
+}

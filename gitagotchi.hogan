@@ -1,0 +1,34 @@
+<html style="font-family: monospace">
+    <header>
+        <meta charset="utf-8">
+    </header>
+    <body style="padding: 25px;">
+        <div id="header" style="display:flex;vertical-align:middle;height: auto;">
+            <div style="font-size:75%;white-space:pre;font-family: monospace;" contenteditable="false">
+    ________.__  __                         __         .__    .__
+   /  _____/|__|/  |______     ____   _____/  |_  ____ |  |__ |__|
+  /   \  ___|  \   __\__  \   / ___\ /  _ \   __\/ ___\|  |  \|  |
+  \    \_\  \  ||  |  / __ \_/ /_/  >  <_> )  | \  \___|   Y  \  |
+   \______  /__||__| (____  /\___  / \____/|__|  \___  >___|  /__|
+          \/              \//_____/                  \/     \/
+            </div>
+            <div style="font-size: 400%;margin-left: auto;" contenteditable="false">
+                {{ face }}
+            </div>
+        </div>
+        <div id="body">
+            {{#repos}}
+                <div class="repo" style="display:flex;vertical-align:middle;">
+                    <div>
+                        <h3>{{name}}</h3>
+                    </div>
+                    <div style="margin-left: auto;font-size:300%;margin-top:0;margin-bottom:0;display:flex;vertical-align:middle;">
+                        {{#status}}
+                            <h3 style="margin:0;">{{.}}</h3>
+                        {{/status}}
+                    </div>
+                </div>
+            {{/repos}}
+        </div>
+    </body>
+</html>
