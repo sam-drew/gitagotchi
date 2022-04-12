@@ -16,6 +16,6 @@
         "find": "^0.3.0",
         "hogan.js": "^3.0.2",
         "node-watch": "^0.6.3",
-        "simple-git": "^1.129.0"
+        "simple-git": "^3.5.0"
     }
 }
